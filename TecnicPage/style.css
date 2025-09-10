@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin: 0 0 22px 0;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(141, 212, 178);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    background-color: rgb(170, 230, 201);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 22px;
+    transition: background-color 1s ease;
+    margin: 10px;
+}
+header a:hover{
+    background-color: rgb(71, 151, 111);
+}
+
+main {
+    padding: 16px;
+}
+
+section {
+    background-color: rgb(141, 212, 178);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    border-radius: 10px;
+    padding: 0 22px 22px 22px;
+}

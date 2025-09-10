@@ -2,10 +2,13 @@ body {
     background-color: white;
     margin: auto;
     align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-    margin: 0 0 20px 0;
+    margin: 2px;
+    
 }
 
 header {
@@ -15,9 +18,8 @@ header {
 
     text-align: center;
 }
-
-main {
-    padding: 16px;
+main{
+    margin: 0 450px 0 450px;
 }
 
 img {
@@ -25,25 +27,42 @@ img {
     max-height: 250px;
     width: auto;
     height: auto;
+    border-radius: 10px;
+
 }
 
 section {
-    background-color: rgb(141, 212, 178);
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-    margin: 16px;
-    border-radius: 10px;
-    padding: 0 16px 16px 16px;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(141, 212, 178);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    margin: 47px 16px 0 16px;
+    border-radius: 10px;
+    padding: 0 16px 16px 16px;
+
 }
 
 section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    background-color: #d6a38b;
+    background-color: rgb(170, 230, 201);
     color: #fff;
     border-radius: 4px;
     padding: 10px 20px;
     transition: background-color 1s ease;
+
+    margin: 10px;
+
+}
+section a:hover{
+    background-color: rgb(71, 151, 111);
+}
+
+section h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
