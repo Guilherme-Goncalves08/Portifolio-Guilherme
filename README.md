@@ -1,1 +1,2 @@
 # Portifolio-Guilherme
+Ultima alteração feita no dia 11/09: Tirei o index.html e o style.css da home para fazer a gitpage; corrigi os botões de navegação, que foram afetados(no caso apenas os botoões de "voltar para home").
